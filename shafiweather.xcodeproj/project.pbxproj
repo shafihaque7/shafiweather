@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EADC90A62677331300F79D1E /* shafiweatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC90A52677331300F79D1E /* shafiweatherApp.swift */; };
+		EADC90A82677331300F79D1E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC90A72677331300F79D1E /* ContentView.swift */; };
+		EADC90AA2677331400F79D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADC90A92677331400F79D1E /* Assets.xcassets */; };
+		EADC90AD2677331400F79D1E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADC90AC2677331400F79D1E /* Preview Assets.xcassets */; };
+		EADC90B82677331400F79D1E /* shafiweatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC90B72677331400F79D1E /* shafiweatherTests.swift */; };
+		EADC90C32677331400F79D1E /* shafiweatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADC90C22677331400F79D1E /* shafiweatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EADC90B42677331400F79D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADC909A2677331300F79D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADC90A12677331300F79D1E;
+			remoteInfo = shafiweather;
+		};
+		EADC90BF2677331400F79D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EADC909A2677331300F79D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EADC90A12677331300F79D1E;
+			remoteInfo = shafiweather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EADC90A22677331300F79D1E /* shafiweather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shafiweather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC90A52677331300F79D1E /* shafiweatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shafiweatherApp.swift; sourceTree = "<group>"; };
+		EADC90A72677331300F79D1E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EADC90A92677331400F79D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EADC90AC2677331400F79D1E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EADC90AE2677331400F79D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADC90B32677331400F79D1E /* shafiweatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shafiweatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC90B72677331400F79D1E /* shafiweatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shafiweatherTests.swift; sourceTree = "<group>"; };
+		EADC90B92677331400F79D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EADC90BE2677331400F79D1E /* shafiweatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shafiweatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EADC90C22677331400F79D1E /* shafiweatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shafiweatherUITests.swift; sourceTree = "<group>"; };
+		EADC90C42677331400F79D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EADC909F2677331300F79D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC90B02677331400F79D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC90BB2677331400F79D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EADC90992677331300F79D1E = {
+			isa = PBXGroup;
+			children = (
+				EADC90A42677331300F79D1E /* shafiweather */,
+				EADC90B62677331400F79D1E /* shafiweatherTests */,
+				EADC90C12677331400F79D1E /* shafiweatherUITests */,
+				EADC90A32677331300F79D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EADC90A32677331300F79D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EADC90A22677331300F79D1E /* shafiweather.app */,
+				EADC90B32677331400F79D1E /* shafiweatherTests.xctest */,
+				EADC90BE2677331400F79D1E /* shafiweatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EADC90A42677331300F79D1E /* shafiweather */ = {
+			isa = PBXGroup;
+			children = (
+				EADC90A52677331300F79D1E /* shafiweatherApp.swift */,
+				EADC90A72677331300F79D1E /* ContentView.swift */,
+				EADC90A92677331400F79D1E /* Assets.xcassets */,
+				EADC90AE2677331400F79D1E /* Info.plist */,
+				EADC90AB2677331400F79D1E /* Preview Content */,
+			);
+			path = shafiweather;
+			sourceTree = "<group>";
+		};
+		EADC90AB2677331400F79D1E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EADC90AC2677331400F79D1E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EADC90B62677331400F79D1E /* shafiweatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				EADC90B72677331400F79D1E /* shafiweatherTests.swift */,
+				EADC90B92677331400F79D1E /* Info.plist */,
+			);
+			path = shafiweatherTests;
+			sourceTree = "<group>";
+		};
+		EADC90C12677331400F79D1E /* shafiweatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EADC90C22677331400F79D1E /* shafiweatherUITests.swift */,
+				EADC90C42677331400F79D1E /* Info.plist */,
+			);
+			path = shafiweatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EADC90A12677331300F79D1E /* shafiweather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC90C72677331400F79D1E /* Build configuration list for PBXNativeTarget "shafiweather" */;
+			buildPhases = (
+				EADC909E2677331300F79D1E /* Sources */,
+				EADC909F2677331300F79D1E /* Frameworks */,
+				EADC90A02677331300F79D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shafiweather;
+			productName = shafiweather;
+			productReference = EADC90A22677331300F79D1E /* shafiweather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EADC90B22677331400F79D1E /* shafiweatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC90CA2677331400F79D1E /* Build configuration list for PBXNativeTarget "shafiweatherTests" */;
+			buildPhases = (
+				EADC90AF2677331400F79D1E /* Sources */,
+				EADC90B02677331400F79D1E /* Frameworks */,
+				EADC90B12677331400F79D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADC90B52677331400F79D1E /* PBXTargetDependency */,
+			);
+			name = shafiweatherTests;
+			productName = shafiweatherTests;
+			productReference = EADC90B32677331400F79D1E /* shafiweatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EADC90BD2677331400F79D1E /* shafiweatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EADC90CD2677331400F79D1E /* Build configuration list for PBXNativeTarget "shafiweatherUITests" */;
+			buildPhases = (
+				EADC90BA2677331400F79D1E /* Sources */,
+				EADC90BB2677331400F79D1E /* Frameworks */,
+				EADC90BC2677331400F79D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EADC90C02677331400F79D1E /* PBXTargetDependency */,
+			);
+			name = shafiweatherUITests;
+			productName = shafiweatherUITests;
+			productReference = EADC90BE2677331400F79D1E /* shafiweatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EADC909A2677331300F79D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EADC90A12677331300F79D1E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					EADC90B22677331400F79D1E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = EADC90A12677331300F79D1E;
+					};
+					EADC90BD2677331400F79D1E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = EADC90A12677331300F79D1E;
+					};
+				};
+			};
+			buildConfigurationList = EADC909D2677331300F79D1E /* Build configuration list for PBXProject "shafiweather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EADC90992677331300F79D1E;
+			productRefGroup = EADC90A32677331300F79D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EADC90A12677331300F79D1E /* shafiweather */,
+				EADC90B22677331400F79D1E /* shafiweatherTests */,
+				EADC90BD2677331400F79D1E /* shafiweatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EADC90A02677331300F79D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC90AD2677331400F79D1E /* Preview Assets.xcassets in Resources */,
+				EADC90AA2677331400F79D1E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC90B12677331400F79D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC90BC2677331400F79D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EADC909E2677331300F79D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC90A82677331300F79D1E /* ContentView.swift in Sources */,
+				EADC90A62677331300F79D1E /* shafiweatherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC90AF2677331400F79D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC90B82677331400F79D1E /* shafiweatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EADC90BA2677331400F79D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EADC90C32677331400F79D1E /* shafiweatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EADC90B52677331400F79D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADC90A12677331300F79D1E /* shafiweather */;
+			targetProxy = EADC90B42677331400F79D1E /* PBXContainerItemProxy */;
+		};
+		EADC90C02677331400F79D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EADC90A12677331300F79D1E /* shafiweather */;
+			targetProxy = EADC90BF2677331400F79D1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EADC90C52677331400F79D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EADC90C62677331400F79D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EADC90C82677331400F79D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"shafiweather/Preview Content\"";
+				DEVELOPMENT_TEAM = 9723D4QV99;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = shafiweather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafi.shafiweather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EADC90C92677331400F79D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"shafiweather/Preview Content\"";
+				DEVELOPMENT_TEAM = 9723D4QV99;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = shafiweather/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafi.shafiweather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EADC90CB2677331400F79D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9723D4QV99;
+				INFOPLIST_FILE = shafiweatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafi.shafiweatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shafiweather.app/shafiweather";
+			};
+			name = Debug;
+		};
+		EADC90CC2677331400F79D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9723D4QV99;
+				INFOPLIST_FILE = shafiweatherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafi.shafiweatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shafiweather.app/shafiweather";
+			};
+			name = Release;
+		};
+		EADC90CE2677331400F79D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9723D4QV99;
+				INFOPLIST_FILE = shafiweatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafi.shafiweatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shafiweather;
+			};
+			name = Debug;
+		};
+		EADC90CF2677331400F79D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9723D4QV99;
+				INFOPLIST_FILE = shafiweatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shafi.shafiweatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = shafiweather;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EADC909D2677331300F79D1E /* Build configuration list for PBXProject "shafiweather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC90C52677331400F79D1E /* Debug */,
+				EADC90C62677331400F79D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC90C72677331400F79D1E /* Build configuration list for PBXNativeTarget "shafiweather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC90C82677331400F79D1E /* Debug */,
+				EADC90C92677331400F79D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC90CA2677331400F79D1E /* Build configuration list for PBXNativeTarget "shafiweatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC90CB2677331400F79D1E /* Debug */,
+				EADC90CC2677331400F79D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EADC90CD2677331400F79D1E /* Build configuration list for PBXNativeTarget "shafiweatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EADC90CE2677331400F79D1E /* Debug */,
+				EADC90CF2677331400F79D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EADC909A2677331300F79D1E /* Project object */;
+}
