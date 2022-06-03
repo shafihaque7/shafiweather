@@ -6,7 +6,7 @@
 
 ## Build Setup
 
-> Optimized for iPhone 13 pro
+> Use iPhone 13 pro when selecting a simulator
 
 
 
