@@ -10,5 +10,5 @@
 ```
 
 
-![main](https://github.com/shafihaque7/UCSC-dining-updated-version-/blob/master/2018-07-31%2018.10.55.gif)
+![main](https://github.com/shafihaque7/shafiweather/blob/main/demo.gif)
 
